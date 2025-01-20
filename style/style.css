@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* nav bar st */
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.all-nave {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 9rem;
+    margin-top: 25px;
+}
+.nav-img {
+    display: flex
+;
+    align-items: center;
+    gap: 20px;
+}
+ul {
+    gap: 32px;
+}
+
+h1.schol {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+a.Home {
+    font-size: 20px;
+    color: #fea301;
+}
+a.About{
+    font-size: 20px;
+    color: #01acfd;
+}
+a.Facilities{
+    font-size: 20px;
+    color: #05d4df;
+}
+button.btn:hover{
+    background-color: rgb(182, 182, 182);
+}
+button.btn {
+    width: 186px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: #fea301;
+    margin-left: 186px;
+    cursor: pointer;
+}
+a.content {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* header section st */
+h1.Empowering {
+    margin-left: 90px;
+    margin-top: 100px;
+    font-size: 56px;
+    color: #fea301;
+}
+
+h1.students {
+    margin-left: 90px;
+    font-size: 56px;
+    font-weight: bold;
+}
+span.towards {
+    color: #01acfd;
+}
+p.paragrap {
+    color: #727272;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+button.Enroll {
+    height: 40px;
+    width: 170px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+section.header-section {
+    display: flex;
+}
+.header-img-container {
+    margin-left: 140px;
+}
+button.Enroll:hover {
+    background-color: rgb(131, 131, 131);
+    cursor: pointer;
+}
