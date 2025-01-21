@@ -222,6 +222,9 @@ section.Stories-container {
     background-image: url("/img/assets/bg.png");
     
 }
+marquee.mk {
+    color: red;
+}
 p.pra {
     margin-top: 30px;
 }
