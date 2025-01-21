@@ -66,6 +66,11 @@ a.Facilities{
 button.btn:hover{
     background-color: rgb(182, 182, 182);
 }
+a.Admission {
+    font-size: 20px;
+    color: #5708b9;
+}
+
 button.btn {
     width: 186px;
     height: 50px;
@@ -98,6 +103,9 @@ h1.students {
 span.towards {
     color: #01acfd;
 }
+.header-container {
+    margin-left: 53px;
+}
 p.paragrap {
     color: #727272;
     font-size: 20px;
@@ -119,10 +127,72 @@ button.Enroll {
 section.header-section {
     display: flex;
 }
+
 .header-img-container {
-    margin-left: 140px;
+    margin-left: 60px;
 }
 button.Enroll:hover {
     background-color: rgb(131, 131, 131);
     cursor: pointer;
+}
+
+/* main section stard */
+main {
+    background-image: url("/img/assets/bg.png");
+}
+
+h1.h1 {
+    font-size: 45px;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* box school */
+.img-box1 {
+    background: linear-gradient(to bottom, #d2f1ff, #ffffff 30%);
+background-color: #fff;
+border-radius: 10px;
+box-shadow:0 4px 6px rgb(226, 226, 226) ;
+width: 300px;
+text-align: center;
+padding: 20px;
+height: 350px;
+border-color: #95c9e0;
+}
+.Curriculum-img {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+.img-box2 {
+    background: linear-gradient(to bottom, #fff6e3, #ffffff 30%);
+background-color: #fff;
+border-radius: 10px;
+box-shadow:0 4px 6px rgb(226, 226, 226) ;
+width: 300px;
+text-align: center;
+padding: 20px;
+height: 350px;
+border-color: #95c9e0;
+}
+.img-box3 {
+    background: linear-gradient(to bottom, #f0e5fe, #ffffff 30%);
+background-color: #fff;
+border-radius: 10px;
+box-shadow:0 4px 6px rgb(226, 226, 226) ;
+width: 300px;
+text-align: center;
+padding: 20px;
+height: 350px;
+border-color: #95c9e0;
+}
+p.Cum {
+    padding: 5px;
+    color: #757272;
+}
+a.Read {
+    text-decoration: none;
+    color: #01acfd;
 }
