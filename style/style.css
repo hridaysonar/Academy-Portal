@@ -356,7 +356,7 @@ button.All-view {
 /* hhf */
 /* Footer Styles */
 .footer-section{
-    background-color: #05d4df;
+    background-color: #01acfd;
     color: white;
 }
 footer.footer-section {
@@ -391,8 +391,9 @@ footer.footer-section {
 .footer-title ul li a{
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
 }
+
 .footer-title ul li a:hover{
     color: white;
 }
@@ -400,4 +401,22 @@ footer.footer-section {
 .socil-icons{
     margin: 0 5px;
     font-size: 20px;
+}
+.social-icons {
+    margin-top: 30px;
+}
+ul {
+    list-style: none;
+}
+h3.About {
+    font-size: 24px;
+}
+p.pa {
+    font-size: 20px;
+}
+h2.h3 {
+    font-size: 30px;
+}
+h3.h3 {
+    font-size: 26px;
 }
