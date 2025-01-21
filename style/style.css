@@ -196,3 +196,157 @@ a.Read {
     text-decoration: none;
     color: #01acfd;
 }
+.icon {
+    text-align: center;
+}
+i#font {
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+i#font:hover{
+    color: #f0e5fe;
+}
+
+i#font {
+    color: #ffa000;
+    cursor: pointer;
+}
+
+
+
+/* main card giride */
+
+section.Stories-container {
+    margin-top: 120px;
+    background-image: url("/img/assets/bg.png");
+    
+}
+p.pra {
+    margin-top: 30px;
+}
+section.background-img {
+    background: linear-gradient(to top, #fff7ad, #ffffff 80%);
+}
+h1.card-title {
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+}
+h2.h2 {
+    font-size: 20px;
+}
+
+img {
+    border-radius: 16px;
+}
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+    
+  }
+
+  .card-1 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .conrent {
+    padding: 40px;
+}
+  .card.large {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 540px;
+    height: 750.52px;
+    border-radius: 16px;
+    background-color: white;
+  }
+  
+  .card-1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-1 .content {
+    padding: 15px;
+  }
+  
+  .card-1 .content .date {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .card-1 .content h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 10px;
+  }
+  
+  .card-1 .content p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  span.date1 {
+    position: relative;
+    bottom: 50px;
+    font-size: 16px;
+    background: #3cd8e8;
+    border-radius: 10px;
+    color: white;
+}
+  span.date {
+
+    position: relative;
+    bottom: 50px;
+    font-size: 16px;
+    background: #95b226;
+    border-radius: 10px;
+    color: white;
+}
+
+  span.date2 {
+
+    position: relative;
+    bottom: 50px;
+    font-size: 16px;
+    background:#5d58f0;;
+    border-radius: 10px;
+    color: white;
+}
+  
+
+.seemore-btn {
+    text-align: center;
+    margin-top: 80px;
+}
+
+button.All-view:hover{
+    background-color: #555;
+}
+
+button.All-view {
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
