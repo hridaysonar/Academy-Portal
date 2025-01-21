@@ -227,6 +227,7 @@ p.pra {
 }
 section.background-img {
     background: linear-gradient(to top, #fff7ad, #ffffff 80%);
+    height: 1130px;
 }
 h1.card-title {
     text-align: center;
@@ -349,4 +350,54 @@ button.All-view {
     font-size: 20px;
     padding: 10px;
     cursor: pointer;
+}
+
+
+/* hhf */
+/* Footer Styles */
+.footer-section{
+    background-color: #05d4df;
+    color: white;
+}
+footer.footer-section {
+    height: 400px;
+    padding: 100px;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-title{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 20px;
+}
+.footer-title h2,.footer-title h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-title p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-title ul li{
+    margin-bottom: 10px;
+}
+.footer-title ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-title ul li a:hover{
+    color: white;
+}
+
+.socil-icons{
+    margin: 0 5px;
+    font-size: 20px;
 }
