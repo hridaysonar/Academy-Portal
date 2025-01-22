@@ -16,8 +16,6 @@ body{
 
 
 
-
-
 /* nav bar st */
 .navbar ul {
     display: flex;
@@ -33,8 +31,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 9rem;
-    margin-top: 25px;
 }
 .nav-img {
     display: flex
@@ -81,6 +77,7 @@ button.btn {
     margin-left: 186px;
     cursor: pointer;
 }
+
 a.content {
     font-size: 20px;
     color: white;
@@ -216,7 +213,9 @@ i#font {
 
 
 /* main card giride */
-
+section.main-section {
+    width: 100%;
+}
 section.Stories-container {
     margin-top: 120px;
     background-image: url("/img/assets/bg.png");
@@ -229,7 +228,7 @@ p.pra {
     margin-top: 30px;
 }
 section.background-img {
-    background: linear-gradient(to top, #fff7ad, #ffffff 80%);
+    background: linear-gradient(to top, #f9e0b6, #ffffff 80%);
     height: 1130px;
 }
 h1.card-title {
@@ -388,6 +387,8 @@ footer.footer-section {
     line-height: 1.6;
 }
 
+
+
 .footer-title ul li{
     margin-bottom: 10px;
 }
@@ -423,3 +424,124 @@ h2.h3 {
 h3.h3 {
     font-size: 26px;
 }
+
+/* media quary st */
+
+
+
+/* Styling for the hamburger menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger .bar {
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  border-radius: 10px;
+  transition: all 0.3s ease; 
+}
+/* media nav */
+@media (max-width: 570px) {
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+}
+
+.section-center {
+  min-width: 100%;
+}
+
+.nav {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+/* nav end */
+@media (max-width: 570px) {
+    section.header-section {
+            flex-direction: column-reverse;
+            gap: 20px;
+            width: 94%;
+    }
+    img.imgss1 {
+        width: 100%;
+    }
+    .header-container {
+        text-align: center;
+        margin-right: 70px;
+    }
+    h1.students {
+        font-size: 2rem;
+    }
+    h1.Empowering {
+        font-size: 2rem;
+    }
+    p.paragrap {
+        font-size: 1rem;
+        margin-top: 30px;
+    }
+    button.Enroll {
+        margin-top: 40px;
+    }
+    .main-container {
+        text-align: center;
+    }
+    h1.h1 {
+        font-size: 2rem;
+    }
+    .Curriculum-img {
+        flex-direction: column;
+        gap: 22px;
+        width: 90%;
+        align-items: center;
+    }
+    .img-box1 {
+        width: 90%;
+        margin-left: 60px;
+    }
+    .img-box2 {
+        width: 90%;
+        margin-left: 60px;
+    }
+    .img-box3 {
+        width: 90%;
+        margin-left: 60px;
+    }
+
+    i#font {
+        display: none;
+    }
+    .card.large {
+        grid-column: span 2;
+        grid-row: span 2;
+        width: 540px;
+        height: 750.52px;
+        border-radius: 16px;
+        background-color: white;
+        display: none;
+    }
+    .grid-container {
+        display: grid
+    ;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 60px;
+    }
+  }
