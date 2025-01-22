@@ -549,7 +549,12 @@ h3.h3 {
     }
     footer.footer-section {
         padding: 120px;
-        height: 700px;
+        height: 1000px;
+    }
+    .social-icons {
+        display: flex
+    ;
+        gap: 5px;
     }
     .div {
         margin-right: 110px;
