@@ -144,7 +144,9 @@ h1.h1 {
     text-align: center;
     font-weight: bold;
 }
-
+marquee.mk {
+    font-size: 20px;
+}
 /* box school */
 .img-box1 {
     background: linear-gradient(to bottom, #d2f1ff, #ffffff 30%);
@@ -548,7 +550,7 @@ h3.h3 {
         font-size: 14px;
     }
     footer.footer-section {
-        padding: 120px;
+        padding: 115px;
         height: 1000px;
     }
     .social-icons {
