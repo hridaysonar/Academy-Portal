@@ -135,7 +135,7 @@ button.Enroll:hover {
 
 /* main section stard */
 main {
-    background-image: url("/img/assets/bg.png");
+    background-image: url("../img/assets/bg.png");
 }
 
 h1.h1 {
@@ -218,7 +218,7 @@ section.main-section {
 }
 section.Stories-container {
     margin-top: 120px;
-    background-image: url("/img/assets/bg.png");
+    background-image: url("../img/assets/bg.png");
     
 }
 marquee.mk {
@@ -544,4 +544,18 @@ h3.h3 {
         margin: auto;
         margin-top: 60px;
     }
+    p.pa {
+        font-size: 14px;
+    }
+    footer.footer-section {
+        padding: 120px;
+        height: 700px;
+    }
+    .div {
+        margin-right: 110px;
+    }
+    header.section-center {
+        border: 1px solid #ffecb4;
+    }
+    
   }
