@@ -362,7 +362,7 @@ button.All-view {
     color: white;
 }
 footer.footer-section {
-    height: 400px;
+    height: 800px;
     padding: 100px;
 }
 .footer-container{
@@ -557,5 +557,39 @@ h3.h3 {
     header.section-center {
         border: 1px solid #ffecb4;
     }
+    .footer-container {
+        display: flex
+    ;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        align-content: stretch;
+        justify-content: center;
+    }
+    .social-icons {
+        margin-top: 30px;
+        display: flex
+    ;
+        gap: 10px;
+    }
+    span.date {
+
+        position: relative;
+        bottom: 50px;
+        font-size: 10px;
+        background: #95b226;
+        border-radius: 10px;
+        color: white;
+    }
+    span.date2 {
+
+        position: relative;
+        bottom: 50px;
+        font-size: 10px;
+        background:#5d58f0;;
+        border-radius: 10px;
+        color: white;
+    }
+    
     
   }
